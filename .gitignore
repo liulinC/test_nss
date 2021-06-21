@@ -1,0 +1,5 @@
+*.o
+*.so.2
+*.vimrc
+*.swp
+tags

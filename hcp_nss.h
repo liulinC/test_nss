@@ -7,7 +7,7 @@
 
 typedef enum nss_status NSS_STATUS;
 
-extern NSS_STATUS _nss_winbind_getpwent_r(struct passwd *result, char *buffer, size_t buflen, int *errnop);
+extern NSS_STATUS _nss_winbind_getpwnam_r(const char* name, struct passwd *result, char *buffer, size_t buflen, int *errnop);
 
 NSS_STATUS _nss_hcp_getpwnam_r(const char *name, struct passwd *result,
 				   char *buffer, size_t buflen, int *errnop);

@@ -1,6 +1,6 @@
 .PHONY: build
 build:
-	gcc -shared  -fpic hcp_nss.c -o libnss_hcp.so.2 -lnss_winbind -L/usr/lib
+	gcc -shared  -fpic hcp_nss.c -o libnss_hcp.so.2 -lnss_winbind -L/usr/lib64
 clean:
 	rm -rf *.so
 install:
