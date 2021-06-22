@@ -1,5 +1,6 @@
 #ifndef _HCP_NSS_H
 #define _HCP_NSS_H
+
 #include <stddef.h>
 #include <nss.h>
 #include <pwd.h>
